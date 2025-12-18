@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className='bg-gray-900 w-screen h-screen lg:h-screen pb-8 overflow-y-scroll'>
+    <div className='bg-gray-900 w-screen h-screen lg:h-screen overflow-y-scroll'>
       <div className='w-full lg:h-full flex flex-wrap'>
         <div className='w-full h-fit lg:w-1/2 flex flex-col gap-8 pt-8 px-8'>
           <h1 className='text-start text-3xl font-bold text-white'>Add Notes</h1>
@@ -67,7 +67,7 @@ function App() {
           >Add Note</button>
           </form>
         </div>
-        <div className='lg:border-l-3 bg-blue-950 mt-6 lg:mt-0 border-white w-full lg:h-screen h-fit lg:w-1/2 flex flex-col gap-8 pt-8 px-8 overflow-y-scroll'>
+        <div className='lg:border-l-3 pb-8 bg-blue-950 mt-6 lg:mt-0 border-white w-full lg:h-screen h-fit lg:w-1/2 flex flex-col gap-8 pt-8 px-8 lg:overflow-y-scroll'>
           <h1 className='text-start text-3xl font-bold text-white'>Your Notes</h1>
           <div className='flex flex-wrap gap-4 justify-start items-start'>
            {task.map((elem,idx)=>{
