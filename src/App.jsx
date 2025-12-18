@@ -74,7 +74,7 @@ function App() {
             return <div key={idx} className='h-60 p-4 md:w-47 sm:w-3/7 w-full border bg-yellow-100 rounded-lg flex flex-col justify-between'>
       <div className='flex flex-col gap-1'> 
         <h2 className='text-start text-xl font-bold'>{elem.title}</h2>
-        <p className='text-start text-sm text-gray-600'>{elem.description}</p>
+        <p className='text-start text-sm text-gray-700'>{elem.description}</p>
       </div>
       <button
       onClick={()=>{
